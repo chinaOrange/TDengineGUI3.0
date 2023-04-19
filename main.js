@@ -2,6 +2,7 @@ const { app, BrowserWindow } = require('electron')
 const isDevelopment = !app.isPackaged;
 if (isDevelopment) {
   try {
+    console.log(6666)
     require('electron-reloader')(module);
   } catch (err) {
   }
